@@ -50,3 +50,32 @@ Ctrl+c посылает SIGKILL главному процессу приатта
 ## Задача 4
 
 ![alt text](image-13.png)
+
+## Задача 5
+
+1
+![alt text](image-15.png)
+
+Запустился файл compose.yaml так как он предпочтительный. docker-compose.yamlи docker-compose.yml так же поддерживаются для обратной совместимости с более ранними версиями. Если оба файла существуют, Compose предпочитает файл compose.yaml.
+
+2
+![alt text](image-14.png)
+![alt text](image-16.png)
+
+3
+![alt text](image-17.png)
+
+4
+![alt text](image-18.png)
+![alt text](image-19.png)
+
+5
+![alt text](image-20.png)
+
+6
+![alt text](image-21.png)
+
+7
+![alt text](image-22.png)
+Docker Compose обнаружил, что в данной рабочей директории (в рамках текущего проекта) ранее был запущен контейнер portainer. Однако в текущем конфигурационном файле (docker-compose.yaml, который теперь стал активным) описание этого сервиса отсутствует. Такие контейнеры Compose считает "осиротевшими".
+![alt text](image-23.png)
