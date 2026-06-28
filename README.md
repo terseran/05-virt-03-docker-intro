@@ -46,3 +46,7 @@ Ctrl+c посылает SIGKILL главному процессу приатта
 
 12
 ![alt text](image-10.png)
+
+## Задача 4
+
+![alt text](image-13.png)
